@@ -1,0 +1,17 @@
+{
+  "name": "Socket Relay Extension",
+  "description": "Chrome websocket frame relay extension",
+  "version": "0.0.1",
+
+  "manifest_version": 2,
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  },
+
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["webpage.js"]
+    }]
+}
