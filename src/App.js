@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './css/App.css';
 
+import { PopupButtons } from './popupButtons'
 import { Title } from './title'
 
 class App extends Component {
@@ -8,6 +8,7 @@ class App extends Component {
     return (
       <div>
         < Title />
+        < PopupButtons />
       </div>
     );
   }

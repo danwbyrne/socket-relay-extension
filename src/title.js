@@ -12,7 +12,7 @@ export class Title extends Component {
         </header>
 
         <p className="App-intro">
-          You can start by looking at <code>src/App.js</code>
+          help me hook up a socket hnnggggg
         </p>
 
       </div>
